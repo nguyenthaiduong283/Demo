@@ -1,0 +1,244 @@
+body {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/*nav*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* justify-content: space-between; */
+}
+
+.navbar ul li a{
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    font-size: 50px;
+    margin-top: 5px;
+    justify-content: flex-start;
+}
+
+.search input {
+    margin-left: 500px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.menu-togger {
+    color:#fff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor:pointer;
+    display: none;
+}
+/**/
+
+/*quotes*/
+.quotes {
+    border-bottom: 2px solid black;
+}
+
+.quotes h1, h3 {
+    text-align: center;
+}
+
+.quotes h1 {
+    font-size: 48px;
+}
+
+.quotes p{
+    margin-left: 768px;
+}
+
+/*end of quotes*/
+
+
+/* topquotes*/
+.topquotes p b{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+
+.topquotes .container {
+    display: flex; 
+    justify-content: space-around; 
+    
+      
+}
+
+
+.box1, .box2, .box3, .box4{
+    width: 120px;
+    padding: 80px;
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+/*end of topquotes*/
+
+
+/*toppics*/
+.toppics {
+    border-top:2px solid black ;
+    margin-top: 50px;
+}
+
+.toppics p b {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.box {
+    display: grid;
+    justify-content: space-around;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,auto);
+}
+
+.box div {
+    width: 180px;
+    padding: 20px;
+    border: 1px solid black; 
+    display: flex;
+}
+/*end of toppics*/
+
+
+/*authors*/
+.authors {
+    border-top:2px solid black ;
+    margin-top: 50px;
+}
+
+.authors p b {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.tv {
+    display: grid;
+    justify-content: space-around;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,auto);
+}
+
+.tv div {
+    width: 180px;
+    padding: 20px;
+    border: 1px solid black; 
+    display: flex;
+}
+
+
+.tron {
+    display: grid;
+    justify-content: space-around;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,auto);
+}
+
+.tron div {
+    width:50px;
+    height: 45px;
+    margin-left: -115px;
+    
+    border:2px solid black;
+    margin-top:-235px;
+    
+    border-radius: 60px;
+    background-color: white;
+  }
+
+
+.tron2 {
+    display: grid;
+    justify-content: space-around;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,auto);
+}
+
+.tron2 div {
+    width:50px;
+    height: 45px;
+    margin-left: -115px;
+    
+    border:2px solid black;
+    margin-top:-173px;
+    
+    border-radius: 60px;
+    background-color: white;
+  }
+
+.tron3 {
+    display: grid;
+    justify-content: space-around;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,auto);
+}
+
+.tron3 div {
+    width:50px;
+    height: 45px;
+    margin-left: -116px;
+    
+    border:2px solid black;
+    margin-top:-110px;
+    
+    border-radius: 60px;
+    background-color: white;
+  }
+
+.tron4 {
+    display: grid;
+    justify-content: space-around;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,auto);
+}
+
+.tron4 div {
+    width:50px;
+    height: 45px;
+    margin-left: -115px;
+    
+    border:2px solid black;
+    margin-top:-49px;
+    
+    border-radius: 60px;
+    background-color: white;
+  }
+
+
+/*end of authors*/
+
+.footer {
+    border-top: 2px solid black;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media (max-width:768px){
+    header
+    {
+        padding:0 25px;
+    }
+    .menu-togger {
+        display: block;
+    }
+}
